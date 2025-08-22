@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WINDARA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/IMG/logo_windara.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <img src="/IMG/logo_windara.jpg" alt="Logo Windara" width="100" height="100" class="logo">
+        <nav>
+            <a href="#datos_curiosos">Datos curiosos</a>
+            <a href="#quienes-somos">¿Quienés somos?</a>
+            <a href="#que-hacemos">¿Qué hacemos?</a>
+            <a href="#formulario-paneles">Calcula, ¿cuántos paneles necesitas?</a>
+        </nav>
+    </header>
+
+    <!--Carrusel-->
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide w-50 mx-auto m-5"
+            style="text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/IMG/Eolica1.jpg" class="d-block w-100 opacity-20" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h1>Energia Eolica</h1>
+                        <h5>Conéctate con el viento, conéctate con el futuro. Usa energía eólica, una fuente limpia que
+                            transforma la fuerza del viento en electricidad mediante turbinas modernas. Esta tecnología
+                            no
+                            contamina, no se agota y ayuda a reducir las emisiones que dañan el planeta. Además, es
+                            silenciosa, segura y más económica a largo plazo. Al usar energía eólica estás apostando por
+                            un
+                            mundo más saludable, donde la energía se produce de forma responsable, sin dañar el aire que
+                            respiramos ni depender de combustibles costosos. ¡Es hora de aprovechar lo que la naturaleza
+                            nos
+                            regala todos los días!</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/IMG/parque-eolico.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h5>El viento no discrimina: sopla para todos.
+                            En regiones abiertas, rurales o costeras donde la energía es escasa, la fuerza del viento
+                            puede
+                            convertirse en electricidad limpia y constante.
+                            La energía eólica, a través de pequeñas turbinas, permite generar luz para hogares o
+                            comunidades
+                            sin depender del sistema eléctrico nacional.
+                            No contamina, no se agota, y es especialmente útil en zonas donde el sol no es tan confiable
+                            todo el año.
+                            Es una solución real para conectar lo desconectado y mover lo que antes parecía imposible.
+                        </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/IMG/Solar.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h1>Energia Solar</h1>
+                        <h5>El sol no cobra, solo da.
+                            Instalar energía solar es aprovechar una fuente inagotable que ilumina tu vida y cuida el
+                            planeta. Con paneles solares, conviertes la luz del día en energía limpia, sin ruidos, sin
+                            humo,
+                            sin culpas.
+                            ¿La mejor parte? Funciona incluso en días nublados y reduce tu factura mes a mes.
+                            Es una inversión que se paga sola… y que vale por generaciones.
+                            Haz que tu techo trabaje para ti. Elige energía solar.</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="/IMG/solares.jpg" class="d-block " alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+
+                        <h5>Donde no llega la electricidad, llega el sol.
+                            En muchas zonas rurales, la red eléctrica no alcanza o falla constantemente. La energía
+                            solar es
+                            la solución: fácil de instalar, sin necesidad de cables extensos ni grandes
+                            infraestructuras.
+                            Solo se necesita un panel y un poco de cielo despejado para generar luz, cargar celulares o
+                            refrigerar medicinas.
+                            Es limpia, silenciosa y duradera, ideal para hogares, escuelas o centros de salud alejados.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <!--Cards-->
+        <h1 class="titulos">Datos Curiosos</h1>
+        <div id="datos_curiosos" class="card-group m-5">
+            <div class="card">
+                <img src="/IMG/Solar6.jpg" class="img-thumbnail m-2 h-50" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">El costo de los paneles solares ha caído más de un 99% desde los años 80,
+                        gracias
+                        a avances tecnológicos, políticas gubernamentales de apoyo y economías de escala. Esto ha hecho
+                        que
+                        hoy sean mucho más accesibles y rentables para hogares y empresas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/IMG/Solar3.jpg" class="img-thumbnail m-2 h-50" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">En muchos países desarrollados, generar electricidad a partir del sol cuesta
+                        menos que hacerlo con carbón o gas, lo que convierte a la energía solar en una de las
+                        alternativas más económicas frente a los combustibles fósiles.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/IMG/Solar4.jpg" class="img-thumbnail m-2 h-50" alt="...">
+                <div class="card-body">
+                    <p class="card-text">El primer panel solar fue creado en 1883 por Charles Fritts usando selenio y
+                        oro.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/IMG/Solar5.jpg" class="img-thumbnail m-2 h-50" alt="...">
+                <div class="card-body">
+                    <p class="card-text">La luz solar tarda 8 minutos en llegar a la Tierra.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/IMG/energia-solar.jpg" class="img-thumbnail m-2 h-50" alt="...">
+                <div class="card-body">
+                    <p class="card-text">La energía solar es el recurso energético más vasto disponible en nuestro
+                        planeta. Cada 60 minutos, el sol envía suficiente luz a la Tierra como para cubrir el
+                        consumo energético de toda la humanidad durante un año completo.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Información de las energias-->
+        <div class="article1">
+            <div>
+                <h1 class="titulos">¿Qué es una fuente de energía?</h1>
+                <p>Una fuente de energía es cualquier recurso natural o proceso que permite obtener energía para <br>
+                    realizar actividades humanas como mover máquinas, encender luces, cocinar, cargar celulares, etc.
+                    <br> <br>
+                    Se clasifican principalmente en: <br>
+
+                    <br>1. Fuentes de energía no renovables: <br>
+                    Son limitadas y se agotan con el tiempo.
+
+                    <br>Provienen de combustibles fósiles o procesos nucleares.
+
+                    <br>Ejemplos: Petróleo, gas natural, carbón, energía nuclear. <br>
+
+                    <br> 2. Fuentes de energía renovables: <br>
+                    Son inagotables o se regeneran naturalmente.
+
+                    <br>Son más limpias y sostenibles para el medio ambiente.
+
+                    <br>Ejemplos: Sol (solar), viento (eólica), agua (hidráulica), biomasa, geotérmica.
+                </p>
+            </div>
+
+            <img src="/IMG/fuentes energias.jpg" alt="Fuentes de Energia" class="imagen-energias">
+        </div>
+
+        <div class="article2">
+            <div>
+                <h1 class="titulos"> ¿Qué es la transición energética?</h1>
+                <p>
+                    La transición energética es el proceso de cambiar el modelo actual basado en combustibles fósiles (como
+                    el carbón y el petróleo),
+                    hacia un sistema que utilice fuentes limpias, renovables y sostenibles, como la energía solar, eólica,
+                    hidroeléctrica o biomasa.
+                    Esta transformación no es solo tecnológica: también implica cambios sociales, económicos y culturales
+                    que buscan reducir las emisiones
+                    de gases de efecto invernadero, proteger el medio ambiente y garantizar el acceso universal a la
+                    energía.
+                    En Colombia, la transición energética representa una oportunidad para cerrar brechas de desigualdad,
+                    especialmente en regiones
+                    históricamente excluidas como la costa Caribe, donde muchas comunidades aún viven con un acceso limitado
+                    o precario a la electricidad.
+                </p>
+            </div>
+            <img src="/IMG/transicion-energetica.jpg" alt="Transición Energetica" class="img_art2" style="float: left;">
+        </div>
+
+        <div class="article3">
+            <div>
+                <h1 class="titulos">Caso práctico: Transición energética en la Guajira</h1>
+                <p>
+                    Uno de los casos más representativos de transición energética en Colombia ocurre en La Guajira, una
+                    región con alto potencial eólico y solar.
+                    Allí se han desarrollado grandes proyectos de energía renovable, especialmente parques eólicos.
+
+                    Sin embargo, muchas comunidades indígenas Wayuu han denunciado que estos proyectos se han implementado
+                    sin una consulta previa adecuada,
+                    afectando sus territorios, recursos y formas de vida.
+
+                    Este caso demuestra que no basta con cambiar la fuente de energía: es necesario que la transición
+                    respete los derechos de las comunidades
+                    y las integre como protagonistas del proceso, no solo como espectadoras o víctimas.
+                </p>
+            </div>
+            <img src="/IMG/guajira.jpg" alt="Transición Energetica Guajira" class="img_art3">
+        </div>
+
+        <div class="article4">
+            <div>
+                <h1 class="titulos">¿Quiénes participan?</h1>
+                <p>
+                    La transición energética requiere del compromiso de múltiples actores: <br>
+
+                    - Comunidades locales: Son las principales beneficiarias y deben ser el centro del proceso. Su
+                    conocimiento del territorio es vital.
+
+                    - Gobiernos y autoridades locales: Tienen la responsabilidad de diseñar políticas públicas inclusivas y
+                    sostenibles.
+
+                    - Instituciones educativas y ONGs: Apoyan con formación, investigación, acompañamiento técnico y
+                    monitoreo.
+
+                    - Empresas y sector privado: Pueden desarrollar tecnologías limpias siempre que lo hagan con
+                    responsabilidad social y ambiental.
+
+                    - Ciudadanía: Cualquier persona puede aprender, compartir, participar e impulsar el
+                    cambio en su entorno.
+                </p>
+            </div>
+        </div>
+
+        <!--Nosotros-->
+        <div id="quienes-somos">
+            <h1 class="titulos">¿Quienés somos?</h1>
+            <p>Somos un equipo comprometido con la equidad energética.
+                Creemos que la energía es un derecho, no un privilegio.
+                Diseñamos e instalamos soluciones solares y eólicas para zonas sin acceso a la red eléctrica,
+                capacitando a las comunidades para que sean autosuficientes y sostenibles.
+            </p>
+        </div>
+
+        <article id="que-hacemos">
+            <h1 class="titulos">¿Qué hacemos?</h1>
+            <p>Llevamos energía limpia a donde más se necesita.
+
+                Nos dedicamos a brindar soluciones energéticas sostenibles a comunidades y hogares donde la electricidad
+                no llega o es inestable. Analizamos cada caso, escuchamos las necesidades reales y proponemos la mejor
+                alternativa: energía solar, eólica o híbrida, según las condiciones del lugar.
+
+                Nuestro equipo ofrece asesoría personalizada para ayudarte a elegir la fuente adecuada y calcular
+                cuántos
+                paneles solares, turbinas o baterías necesitas, sin complicaciones técnicas ni costosas instalaciones.
+
+                Creemos que todos tienen derecho a vivir con luz, conectividad y dignidad. Por eso, te acompañamos desde
+                el diagnóstico hasta la puesta en marcha de tu sistema de energía.
+                Soluciones limpias, accesibles y adaptadas a ti.
+            </p>
+
+        </article>
+
+        <!--Formulario-->
+        <div class="container" style=" width: 550px; height: 600px;">
+            <h1 class="titulos">¿Cuántos paneles solares necesita?</h1>
+            <form id="formulario-paneles">
+                <div class="input-paneles">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" required class="input-paneles">
+                </div>
+
+                <div class="input-paneles">
+                    <label for="email">Correo eléctronico: </label>
+                    <input type="email" id="email" required class="input-paneles">
+                </div>
+
+                <div class="input-paneles">
+                    <label for="telefono">Celular: </label>
+                    <input type="number" id="telefono" required class="input-paneles">
+                </div>
+
+                <div class="input-paneles">
+                    <label for="consumo-hogar">Ingrese el consumo de energia en su hogar: </label>
+                    <input type="number" id="consumo_hogar" required class="input-paneles">
+                </div>
+                <button type="submit" class="button">Calcular</button>
+                <p id="msg-error" class="error"></p>
+            </form>
+            <div id="salida" class="resultado"></div>
+        </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <p>&copy; 2025 Todos los derechos reservados. Grupo 7 <br>
+                Este proyecto fue realizado por: <br>
+                Alejandro Acevedo, Andi Herrera, Eylen Cavadia, Gina Cabrera, Karen Ocampo, Sandra Becerra.
+            </p>
+        </div>
+    </footer>
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="funciones.js"></script>
+</body>
+
+</html>
